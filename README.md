@@ -23,3 +23,7 @@ Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnic
 - boljša organizacija žic
 - boljši izpis na LCD ekranu
 - možnost vpisov daljših gesel
+
+![schematic](/schematic.png "shema vezave")
+![breadboard](/breadboard.png "breadboard vezava")
+![slika vezave](/slika.png)
