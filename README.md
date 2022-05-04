@@ -8,3 +8,13 @@ Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnic
 - tipke 0-9: vpisovanje številk
 - tipka #: (RESET) se uporabi za brisanje trenutno napisanih številk in "resetiranje" zaslona
 - tipka \*: (SET) se uporabi za nastavljanje novega gesla. po pritisku vpišemo novo geslo, nato pa vpišemo še staro geslo
+
+# kosovnica
+- 1x LCD 16x2
+- 1x trimmer (
+- 1x LED (rdeča)
+- 1x LED (zelena)
+- 1x keypad 4x3
+- 1x arduino uno
+- 2x upor 220 Ω
+- 1x breadboard
