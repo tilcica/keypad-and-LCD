@@ -1,15 +1,15 @@
 # keypad-and-LCD
 keypad with LCD screen on arduino 
 
-# navodila naloge
+## navodila naloge
 Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnici 3x4 "keypad"). S pravilno kombinacijo 4 številk (npr. 6789) odpremo ključavnico (zelena LED). Vsaka napaka vrne krmilje v izhodiščni položaj. Vpis kombinacije je mogoč samo, če je vklopljeno stikalo na pozicijo 1. 
 
-# navodila za uporabo:
+## navodila za uporabo:
 - tipke 0-9: vpisovanje številk
 - tipka #: (RESET) se uporabi za brisanje trenutno napisanih številk in "resetiranje" zaslona
 - tipka \*: (SET) se uporabi za nastavljanje novega gesla. po pritisku vpišemo novo geslo, nato pa vpišemo še staro geslo
 
-# kosovnica
+## kosovnica
 - 1x LCD 16x2
 - 1x trimmer (
 - 1x LED (rdeča)
@@ -19,13 +19,13 @@ Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnic
 - 2x upor 220 Ω
 - 1x breadboard
 
-# predlagane izboljšave
+## predlagane izboljšave
 - boljša organizacija žic
 - boljši izpis na LCD ekranu
 - možnost vpisov daljših gesel
 
-# priredbeni seznam
-## vhodi
+## priredbeni seznam
+### vhodi
 | oznaka v nacrtu | naslov operanda | vrsta kontakta | pomen                          |
 |-----------------|-----------------|----------------|--------------------------------|
 | tipkovnica      | x0              | N.O.           | pritiskanje gumbov             |
@@ -43,18 +43,18 @@ Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnic
 | -> #            | x12             | N.O.           | izpise SET + spremeni geslo    |
 | trimmer         | x13             | N.O.           | uravnavanje kontrasta LCD      |
 
-## izhodi
+### izhodi
 | oznaka v nacrtu | naslov operanda | aktiven pri   | pomen                     |
 |-----------------|-----------------|---------------|---------------------------|
 | LCD             | Y0              | "lcd.begin()" | izpis informacij          |
 | rdeča LED       | Y1              | "1"           | ključavnica je zaklenjena |
 | zelena LED      | Y2              | "1"           | ključavnica je odklenjena |
 
-# shema vezave
+## shema vezave
 ![schematic](/schematic.png "shema vezave")
-# digitalna oblika vezja
+## digitalna oblika vezja
 ![breadboard](/breadboard.png "breadboard vezava")
-# slika vezja
+## slika vezja
 ![slika vezave](/slika.png)
-# video uporabe vezja
+## video uporabe vezja
 https://user-images.githubusercontent.com/62448600/166870577-f9e1eafc-958f-413d-82eb-7c238101459e.mp4
