@@ -11,7 +11,7 @@ Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnic
 
 ## kosovnica
 - 1x LCD 16x2
-- 1x trimmer (
+- 1x trimmer
 - 1x LED (rdeča)
 - 1x LED (zelena)
 - 1x keypad 4x3
