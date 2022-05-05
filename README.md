@@ -25,6 +25,7 @@ Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnic
 - možnost vpisov daljših gesel
 
 # priredbeni seznam
+## vhodi
 | oznaka v nacrtu | naslov operanda | vrsta kontakta | pomen                          |
 |-----------------|-----------------|----------------|--------------------------------|
 | tipkovnica      | x0              | N.O.           | pritiskanje gumbov             |
@@ -42,6 +43,16 @@ Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnic
 | -> #            | x12             | N.O.           | izpise SET + spremeni geslo    |
 | trimmer         | x13             | N.O.           | uravnavanje kontrasta LCD      |
 
+## izhodi
+| oznaka v nacrtu | naslov operanda | aktiven pri   | pomen                     |
+|-----------------|-----------------|---------------|---------------------------|
+| LCD             | Y0              | "lcd.begin()" | izpis informacij          |
+| rdeča LED       | Y1              | "1"           | ključavnica je zaklenjena |
+| zelena LED      | Y2              | "1"           | ključavnica je odklenjena |
+
+# shema vezave
 ![schematic](/schematic.png "shema vezave")
+# digitalna oblika vezja
 ![breadboard](/breadboard.png "breadboard vezava")
+# slika vezja
 ![slika vezave](/slika.png)
