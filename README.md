@@ -56,3 +56,5 @@ Elektronska ključavnica 1: Na voljo imate 9 tipk (številke 1 do 9 na tipkovnic
 ![breadboard](/breadboard.png "breadboard vezava")
 # slika vezja
 ![slika vezave](/slika.png)
+
+https://user-images.githubusercontent.com/62448600/166870577-f9e1eafc-958f-413d-82eb-7c238101459e.mp4
